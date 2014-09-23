@@ -1,0 +1,55 @@
+html, body {
+  background: #eee;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  background: #333;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 20px 40px;
+  width: 1024px;
+
+}
+
+header a {
+  color: #fff;
+  font-size: 1.1em;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+header a:last-child {
+  margin-right: 0;
+}
+
+.wrapper {
+  background: #fff;
+  box-sizing: border-box;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 60px;
+  width: 1024px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+p {
+  color: #444;
+  line-height: 1.5em;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 1em;
+}
